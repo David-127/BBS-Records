@@ -149,13 +149,16 @@ h2 {
 }
 
 .aboutimg {
-  margin: 0%;
+  
   filter: grayscale(100);
   display: flex;
+  justify-content:flex-start;
   width: 30vh;
   height: 50vh;
-  justify-content: space-around;
+  gap: 0%;
+  
 }
+
 .contact {
   display: flex;
   font-size: 36px;
