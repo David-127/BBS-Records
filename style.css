@@ -77,17 +77,17 @@ main img {
   height: 60vh;
   filter: grayscale(100);
 }
-.artistname{
+.artistname {
   display: flex;
-font-family:'Franklin Gothic Medium';
-color: #f0233d;
-justify-content: space-around;
-font-size: 30px;
-text-shadow: -1px -1px white, -1px -1px white;
+  font-family: "Franklin Gothic Medium";
+  color: #f0233d;
+  justify-content: space-around;
+  font-size: 30px;
+  text-shadow: -1px -1px white, -1px -1px white;
 }
 
 footer {
-  font-family: 'Franklin Gothic Medium';
+  font-family: "Franklin Gothic Medium";
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -101,14 +101,14 @@ footer p {
   text-shadow: -2px -1px firebrick, -1px -2px #f0233d;
 }
 
-.header2{
+.header2 {
   display: flex;
   background: linear-gradient(to bottom, gray, #212122, #121214);
   width: 100%;
   flex-direction: column;
 }
 
-.h1two{
+.h1two {
   text-shadow: -2px -1px firebrick, -1px -2px #f0233d;
   display: flex;
   justify-content: center;
@@ -118,47 +118,49 @@ footer p {
   font-size: 24px;
 }
 
-.nav2{
+.nav2 {
   display: flex;
   justify-content: space-around;
   flex-direction: flex-start;
 }
 
-.body2{
+.body2 {
   flex-direction: column;
   width: 100%;
   display: flex;
   margin: 0%;
 }
 
-h2{
+h2 {
   margin-top: 4vh;
   color: firebrick;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 36px;
   text-shadow: -1px -1px white, -1px -1px white;
   display: flex;
   justify-content: space-around;
 }
 
-.abouttext{
+.abouttext {
   margin-top: 2%;
   font-family: arial;
   color: white;
-width: 100%;
+  width: 100%;
 }
 
-.aboutimg{
+.aboutimg {
+  margin: 0%;
   filter: grayscale(100);
   display: flex;
   width: 30vh;
   height: 50vh;
+  justify-content: space-around;
 }
-.contact{
-display:flex; 
-font-size: 36px;
-margin-top: 1%;
-color: firebrick;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-justify-content: center;
+.contact {
+  display: flex;
+  font-size: 36px;
+  margin-top: 1%;
+  color: firebrick;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  justify-content: center;
 }
