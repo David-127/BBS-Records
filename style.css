@@ -152,7 +152,7 @@ h2 {
 }
 
 .aboutimg {
-  
+  margin-top: 3%;
   filter: grayscale(100);
   display: flex;
   justify-content:flex-start;
