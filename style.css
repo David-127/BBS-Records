@@ -1,7 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  min-height: 4vh;
+  min-height: 5vh;
   max-width: 100%;
 }
 
@@ -62,7 +62,7 @@ body div {
   margin: 0%;
   padding: 0%;
 }
-main {
+.mainstart {
   margin-top: 30vh;
   display: flex;
   flex-direction: row;
@@ -86,7 +86,30 @@ main img {
   text-shadow: -1px -1px white, -1px -1px white;
 }
 
+.artistname a{
+  text-decoration-line: none;
+  color:#f0233d;
+}
+
+.startcontact{
+  color: firebrick;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  text-decoration-line: none;
+}
+
+
+  
+body a:hover{
+  color:firebrick;
+}
+
+
 footer {
+  margin-top: 10%;
+  align-items: flex-end;
   font-family: "Franklin Gothic Medium";
   width: 100%;
   display: flex;
@@ -94,8 +117,10 @@ footer {
   background: linear-gradient(to top, gray, #212122, #121214);
   justify-content: flex-end;
   align-items: center;
+  margin-bottom: auto;
 }
 footer p {
+  margin:auto;
   color: #f5f0f0;
   font-family: "Franklin Gothic Medium";
   text-shadow: -2px -1px firebrick, -1px -2px #f0233d;
@@ -125,14 +150,14 @@ footer p {
 }
 
 .body2 {
+  height: auto;
+  display: flex;
   flex-direction: column;
   width: 100%;
-  display: flex;
-  margin: 0%;
 }
 
-h2 {
-  margin-top: 4vh;
+.h2about{
+  margin-top: 4%;
   color: firebrick;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 36px;
@@ -144,11 +169,11 @@ h2 {
 .abouttext {
   font-family: Arial;
   margin-top: 2%;
-  font-family: arial;
   color: white;
   font-size: 18px;
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom: 20%;
 }
 
 .aboutimg {
@@ -156,26 +181,27 @@ h2 {
   filter: grayscale(100);
   display: flex;
   justify-content:flex-start;
-  width: 20%;
+  width: 18.35%;
   height: 40%;
   gap: 0%;
   
 }
 
 .contact {
+  margin-top: 20%;
   display: flex;
   font-size: 36px;
-  margin-top: 1%;
   color: firebrick;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
   justify-content: center;
+  margin-bottom: 3%;
 }
 
 .contactinfo {
   font-size: 24px;
-  gap: 20%;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  gap: 30%;
+  margin-top: 5%;
+  margin-bottom: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -184,13 +210,54 @@ h2 {
   }
 
   .mainabout{
-    margin-top: 0%;
     width: 100%;
+    margin-bottom: 10%;
   }
 
+  .bodynews{
+    display: grid;
+    display:flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .h2news{
+    margin-top: 5%;
+    color: firebrick;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 36px;
+    text-shadow: -1px -1px white, -1px -1px white;
+    display: flex;
+
+  }
+
+  .h3news{
+    margin-top: 10%;
+    color: firebrick;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 36px;
+    text-shadow: -1px -1px white, -1px -1px white;
+    display: flex;
+    justify-content: start;
+  }
+
+.grid{
+margin-top: 2%;
+display: flex;
+display: grid;
+grid-template-columns: 30vh auto;
+}
+
+.grid2{
+ display: grid;
+grid-template-columns: auto 30vh;
+margin-bottom: 5%;
+}
+
+
   .fyra{
-width: 20%;
-height: 30%;
+width: 40vh;
+height: 20vh;
   }
 
   .news1{
@@ -201,10 +268,134 @@ height: 30%;
     font-size: 18px;
   }
 
+  .lillorem{
+grid-column-start:2;
+grid-row-start: 1;
+width: 50vh;
+height: 30vh;
+  }
+
   .news2{
     font-family: Arial;
     margin-top: 2%;
     font-family: arial;
     color: white;
     font-size: 18px;
+    margin-bottom: 10%;
   }
+ 
+  
+  
+
+  .h2artists{
+    color: firebrick;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 36px;
+    display: flex;
+  }
+
+  .h3artists{
+    color: firebrick;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 36px;
+    display: flex;
+  }
+
+  h4{
+    color: firebrick;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 36px;
+    display: flex;
+  }
+
+  .imgartist{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 0%;
+  }
+
+  .imgartist img{
+    width: 50%;
+    height: auto;
+  }
+
+  .artisttext{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: firebrick;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25%;
+  }
+
+  @media(max-width:900px){
+
+    iframe{
+      width: 45%;
+    }
+
+    main img{
+      width: 20vh;
+      height: 60vh;
+    }
+    
+    .news1{
+      margin-top: 1vh;
+      grid-row-start: 2;
+    }
+    .news2{
+      margin-top: 0;
+      grid-row-start: 2;
+    }
+    
+        .h3news{
+          margin-top: 200vh;
+          margin-bottom: 0%;
+        }
+        .grid{
+      
+         grid-template-columns: 1;
+         grid-template-rows:30vh auto;
+        }
+        .grid2{
+          margin-top: 0px;
+          margin-left:50%;
+          grid-template-columns: 1;
+          grid-template-rows:30vh auto;
+        }
+          .lillorem{
+            margin-right: 10%;
+            margin-left:10%;
+            grid-template-rows:1;
+            grid-template-columns:1;
+            width: 40vh;
+            height: 20vh;
+            margin-bottom: 0px;
+          }
+          footer{
+           margin-top:250vh;
+          }
+          .contact{
+            margin-top: 100vh;
+          }
+        .contactinfo{
+          margin-top: 20vh ;
+          gap: 10vh;
+        }
+        .aboutimg{
+          margin-top: 4vh;
+        }
+      
+        .startcontact{
+          margin-top: 15%;
+        }
+        }
+
+
+ 
+
+ 
+
+ 
